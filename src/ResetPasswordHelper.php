@@ -91,6 +91,12 @@ class ResetPasswordHelper implements ResetPasswordHelperInterface
         );
     }
 
+    public function setRepository(ResetPasswordRequestRepositoryInterface $repository) {
+        $this->repository = $repository;
+        return $this;
+    }
+
+
     /**
      * {@inheritdoc}
      *
