@@ -96,7 +96,6 @@ class ResetPasswordHelper implements ResetPasswordHelperInterface
         return $this;
     }
 
-
     /**
      * {@inheritdoc}
      *
